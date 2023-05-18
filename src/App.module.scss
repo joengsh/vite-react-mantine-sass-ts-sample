@@ -1,0 +1,29 @@
+$primary: blue;
+$secondary: violet;
+
+.h1 {
+  color: $primary;
+}
+
+.content {
+  p {
+    color: $secondary;
+    font-weight: bold;
+    font-size: large;
+  }
+}
+
+.slider {
+  :global {
+    .mantine-Slider-bar {
+      background-color: pink;
+    }
+    
+    .mantine-Slider-thumb {
+      border-color: pink;
+      background-color: white;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}
